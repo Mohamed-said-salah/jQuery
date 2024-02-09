@@ -41,6 +41,14 @@ function checkAnswer() {
             console.log(playerPattern);
             gameOver();
         }
+    } else {
+        if (
+            playerPattern[playerPattern.length - 1] !==
+            generatedPattern[playerPattern.length - 1]
+        ) {
+            console.log(playerPattern);
+            gameOver();
+        }
     }
 }
 
