@@ -54,7 +54,7 @@ function nextSequence() {
     setTimeout(() => {
         playSound(randomChoice.replace("btn-", ""));
         animateButton(randomChoice);
-    }, 500);
+    }, 600);
 }
 
 function animateButton(btn) {
